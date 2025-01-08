@@ -8,11 +8,6 @@ export default {
       screens: {
         md: "1200px",
       },
-      colors: {
-        primary: "#3490dc",
-        secondary: "#ffed4a",
-        danger: "#e3342f",
-      },
       fontFamily: {
         barlowSemi: ["Barlow Semi Condensed", "sans-serif"],
       },
