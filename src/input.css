@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  user-select: none;
+}
+@media (min-width: 1200px) {
+  section {
+    @apply grid grid-areas-default grid-cols-reviews grid-rows-reviews gap-x-[30px] gap-y-6;
+  }
+}
